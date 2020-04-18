@@ -33,7 +33,8 @@ def main(args):
             ob_space=env.observation_space,
             ac_space=env.action_space,
             optimizer=tf.train.AdamOptimizer(learning_rate=5e-4),
-            sess=sess
+            sess=sess,
+            double_q=False
         )
         # Create the replay buffer
         replay_buffer = ReplayBuffer(50000)
