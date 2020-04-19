@@ -27,9 +27,6 @@ Bug Fixes:
 - Fix reward threshold in ``test_identity.py``
 
 Deprecations:
-- ``stable_baselines\deepq\experiments\custom_cartpole.py`` removed
-- ``test_custom_cartpole`` function in ``tests\test_deepq.py`` removed
-
 ^^^^^^^^^^^^^
 
 Others:
@@ -39,6 +36,9 @@ Documentation:
 ^^^^^^^^^^^^^^
 - Fix typos (@caburu)
 - Fix typos in PPO2 (@kvenkman)
+- ``stable_baselines\deepq\experiments\custom_cartpole.py`` removed (aakash94)
+- ``test_custom_cartpole`` function in ``tests\test_deepq.py`` removed (aakash94)
+
 
 
 Release 2.10.0 (2020-03-11)
