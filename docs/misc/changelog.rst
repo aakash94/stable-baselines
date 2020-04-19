@@ -37,6 +37,7 @@ Documentation:
 - Fix typos (@caburu)
 - Fix typos in PPO2 (@kvenkman)
 - Removed ``stable_baselines\deepq\experiments\custom_cartpole.py`` (@aakash94)
+- Improving description for ``argparse.ArgumentParser`` in ``stable_baselines\deepq\experiments\train_mountaincar.py`` (@aakash94)
 
 
 Release 2.10.0 (2020-03-11)
